@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         `${faceapi.utils.round(age, 0)} years`,
                         `${gender} (${faceapi.utils.round(genderProbability)})`
                     ],
-                    detection.detection.box.bottomLeft
+                    detection.detection.box.bottomRight
                 ).draw(canvas)
             })
         }, 100)
