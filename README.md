@@ -9,4 +9,4 @@ My first ever AI face detector.
 2. Type `python3 -m http.server` on the terminal.
 
 ## Example Run
-![example video](video.mov)
+![example video](video.gif)
